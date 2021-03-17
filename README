@@ -1,12 +1,12 @@
 Daniyal M , Nick C, Andrew B - Group 4
 
-EXERCISE ONE
-v1:
+## EXERCISE ONE
+###### v1:
   START
   INPUT string
   PRINT string in reverse order
   
-v2:
+##### v2:
   START
   INPUT string
   SET index from length of string
@@ -17,8 +17,8 @@ v2:
     
   PRINT reversed string
   
-EXERCISE THREE
-v1
+## EXERCISE THREE
+##### v1
   START
   SET nth value
   SET sequenceStart of '0'
@@ -28,10 +28,19 @@ v1
     ADD sequenceStart to total
     INCREMENT sequenceStart
     
- v2
+ ##### v2
   START
    SET nth value
    SET sequence to 1
    FOR every step until nth value is reached
     ADD step to sequenceStart value
     PRINT sequence value
+    
+ ###### v3
+  START
+  GET nth value 
+  SET prevNumber as 0 
+  SET currentNumber as 1 
+  FOR nth value 
+    ADD prevNumner to currentNumber 
+    PRINT currentNumber
