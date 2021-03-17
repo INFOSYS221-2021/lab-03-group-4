@@ -21,11 +21,11 @@ EXERCISE THREE
 v1
   START
   SET nth value
-  SET looping value of '0'
+  SET sequence of '0'
   SET total of 1
-  LOOP until looping value greater nth value
+  LOOP until sequence greater nth value
     PRINT total
-    ADD looping value to total
+    ADD sequence to total
     INCREMENT looping value
     
  v2
