@@ -22,11 +22,11 @@ v1
   START
   SET nth value
   SET sequenceStart of '0'
-  SET total of 1
+  SET sequence of 1
   LOOP until sequenceStart greater nth value
-    PRINT total
+    PRINT sequence
     ADD sequenceStart to total
-    INCREMENT looping value
+    INCREMENT sequenceStart
     
  v2
   START
