@@ -1,12 +1,13 @@
 Daniyal M , Nick C, Andrew B - Group 4
 
-## EXERCISE ONE
-###### v1:
+EXERCISE ONE
+
+v1:
   START
   INPUT string
   PRINT string in reverse order
   
-##### v2:
+v2:
   START
   INPUT string
   SET index from length of string
@@ -17,8 +18,10 @@ Daniyal M , Nick C, Andrew B - Group 4
     
   PRINT reversed string
   
-## EXERCISE THREE
-##### v1
+  
+EXERCISE THREE
+
+v1
   START
   SET nth value
   SET sequenceStart of '0'
@@ -28,7 +31,7 @@ Daniyal M , Nick C, Andrew B - Group 4
     ADD sequenceStart to total
     INCREMENT sequenceStart
     
- ##### v2
+v2
   START
    SET nth value
    SET sequence to 1
@@ -36,7 +39,7 @@ Daniyal M , Nick C, Andrew B - Group 4
     ADD step to sequenceStart value
     PRINT sequence value
     
- ###### v3
+v3
   START
   GET nth value 
   SET prevNumber as 0 
