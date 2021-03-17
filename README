@@ -31,7 +31,7 @@ v1
  v2
   START
    SET nth value
-   SET sequenceStart to 1
+   SET sequence to 1
    FOR every step until nth value is reached
     ADD step to sequenceStart value
-    PRINT total value
+    PRINT sequence value
