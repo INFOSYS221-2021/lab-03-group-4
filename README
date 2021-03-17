@@ -1,12 +1,37 @@
 Daniyal M , Nick C, Andrew B - Group 4
 
 EXERCISE ONE
-1)
+v1:
   START
   INPUT string
   PRINT string in reverse order
   
-2)
+v2:
   START
   INPUT string
-  FOR
+  SET index from length of string
+  SET empty string called 'reversed'
+  LOOP until index is 0
+    ADD indexed charatcer to 'reversed' string
+    DECREMENT index
+    
+  PRINT reversed string
+  
+EXERCISE THREE
+v1
+  START
+  SET nth value
+  SET looping value of '0'
+  SET total of 1
+  LOOP until looping value greater nth value
+    PRINT total
+    ADD looping value to total
+    INCREMENT looping value
+    
+ v2
+  START
+   SET nth value
+   SET total to 1
+   FOR every step until nth value is reached
+    ADD step to start value
+    PRINT total value
