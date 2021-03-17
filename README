@@ -13,8 +13,8 @@ v2:
   SET index from length of string
   SET empty string called 'reversed'
   LOOP until index is 0
-    ADD indexed charatcer to 'reversed' string
-    DECREMENT index
+      ADD indexed charatcer to 'reversed' string
+      DECREMENT index
     
   PRINT reversed string
   
@@ -27,17 +27,17 @@ v1
   SET sequenceStart of '0'
   SET sequence of 1
   LOOP until sequenceStart greater nth value
-    PRINT sequence
-    ADD sequenceStart to total
-    INCREMENT sequenceStart
+      PRINT sequence
+      ADD sequenceStart to total
+      INCREMENT sequenceStart
     
 v2
   START
    SET nth value
    SET sequence to 1
    FOR every step until nth value is reached
-    ADD step to sequenceStart value
-    PRINT sequence value
+      ADD step to sequenceStart value
+      PRINT sequence value
     
 v3
   START
@@ -45,5 +45,5 @@ v3
   SET prevNumber as 0 
   SET currentNumber as 1 
   FOR nth value 
-    ADD prevNumner to currentNumber 
-    PRINT currentNumber
+      ADD prevNumner to currentNumber 
+      PRINT currentNumber
