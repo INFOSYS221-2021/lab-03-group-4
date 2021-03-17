@@ -21,17 +21,17 @@ EXERCISE THREE
 v1
   START
   SET nth value
-  SET sequence of '0'
+  SET sequenceStart of '0'
   SET total of 1
-  LOOP until sequence greater nth value
+  LOOP until sequenceStart greater nth value
     PRINT total
-    ADD sequence to total
+    ADD sequenceStart to total
     INCREMENT looping value
     
  v2
   START
    SET nth value
-   SET total to 1
+   SET sequenceStart to 1
    FOR every step until nth value is reached
-    ADD step to start value
+    ADD step to sequenceStart value
     PRINT total value
